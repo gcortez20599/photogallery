@@ -1,0 +1,246 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    background-color: #000000;
+    padding: 250px;
+    width: 1515px;
+    padding-top: 0px;
+    
+}
+[href="#top"] {
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    border-radius:10px 0 0px 0px;
+  }
+header{
+    width:100%;
+}
+body{
+    padding: 30px;
+    padding-top: 0px;
+
+}
+.main{
+  background-color: #ffffff;
+  width:100%;
+}
+p {
+    font-size: 1.25em;
+}
+figcaption, label, input, small {
+    font-size: 1em;
+}
+nav a {
+    font-size: 1.5em;
+    color: #ffffff;
+    margin: 10px;
+    text-decoration: none;
+    float: right;
+    
+}
+h1 {
+    font-size: 3em;
+    color: #007d7b;
+    background-color: #ffffff;
+    margin-top: 0px;
+}
+h2{
+  visibility: hidden;
+  margin-top: -40px;
+}
+h3 {
+    font-size: 2em;
+    text-align:center;
+    text-transform:uppercase;
+    
+}
+nav li {
+  display:inline-block;
+  text-transform:uppercase;
+  
+}
+nav{
+  padding:5px;
+  text-align: right;
+}
+header{
+   background-color: #000000;
+   margin: -10px;
+}
+.grid{
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    position: relative;
+    width: 56%;
+    left: 75px;
+    
+}
+p{
+    padding-left: 50px;
+}
+figure{
+    margin: 0px;
+}
+
+figcaption{
+  display: flex;
+  justify-content: center;
+}
+/*Positioning*/
+.chile > figcaption{
+    position: relative ;
+    color:white;
+    top:-30px;
+} 
+.guatemala > figcaption{
+    position: relative ;
+    color:white;
+    top: -270px;
+} 
+.hawaii > figcaption{
+    position: relative ;
+    color:white;
+    top: -30px;
+}
+.iran > figcaption{
+    position: relative ;
+    color:black;
+    top: -620px;
+}
+.ireland  > figcaption{
+    position: relative ;
+    color:black;
+    top: -620px;
+}
+.italy  > figcaption{
+    position: relative ;
+    color:black;
+    top:-30px;
+}
+.desert > figcaption{
+    position: relative ;
+    color:white;
+    top:-30px;
+} 
+.rocky > figcaption{
+    position: relative ;
+    color:black;
+    top:-270px;
+} 
+.switz > figcaption{
+    position: relative ;
+    color:black;
+    top:-270px;
+} 
+.uk > figcaption{
+    position: relative ;
+    color:black;
+    top:-270px;
+} 
+.usa > figcaption{
+    position: relative ;
+    color:black;
+    top:-270px;
+} 
+.wyoming > figcaption{
+    position: relative ;
+    color:white;
+    top:-30px;
+} 
+input{
+  width: 800px;
+  padding:10px;
+  font-weight: bold;
+}
+.contact{
+  text-align: center;
+  color: #ffffff;  
+}
+.contact p{
+  font-size:1em;
+}
+label{
+  margin-right: 740px;
+} 
+input{
+  width: 800px;
+}
+
+::placeholder{
+  color: #007d7b;
+  text-transform:uppercase;
+}
+
+button{
+  background-color: #007d7b;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  color: #ffffff;
+  width: 40%;
+  left:10px;
+}
+footer{
+  color: #ffffff;
+  text-transform:uppercase;
+  text-align: center;
+  padding-top: 60px;
+}
+@media screen and (max-width: 880px) {
+    body {
+        width: 880px;  
+    }
+     
+    nav{
+        width: 880px;
+    }
+    form input{
+        width:80%;
+    }
+    form label{
+       padding-left: 80px;
+    }
+    button{
+        width: 50%;;
+    }
+  
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;   
+    left: 15px;
+  }
+  footer{
+    padding-top: 50px;
+  }
+  }   
+  @media screen and (max-width: 574px){
+    html{
+        width:90%;
+    }
+    body{
+
+        width: 100%;
+    }
+    nav{
+        width:90%;
+    }
+    img{
+        width:450px;
+    }
+    p{
+        margin:10px;
+    }
+    .grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    left: 30px;
+    }
+    .contact p{
+        padding: 10px;
+        font-size:1.25em;
+    }
+  }
